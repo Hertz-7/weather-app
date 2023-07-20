@@ -1,0 +1,89 @@
+.card{
+    display: flex;
+    justify-content: center;
+    background: none;
+    border: none;
+    color: antiquewhite;
+    width: 55%;
+}
+@media (max-width: 660px) {
+    .card{
+       
+    }
+}
+.card-title{
+    font-size:4rem;
+    text-align: center;
+}
+@media (max-width: 660px) {
+    .card-title{
+        font-size: 2rem;
+    }
+}
+@media (max-width: 660px) {
+    
+    .card-body{
+        width: 80% ;
+    }
+    
+}
+@media (max-width: 660px) {
+    .moreinfo{
+        font-size: 10px;
+    }
+}
+.card-city{
+    text-align: center;
+}
+.form-control{
+    background: none;
+    border: none;
+    border-radius: 10px;
+    color: rgb(196, 186, 173);
+    width: 30%;
+    height: 3rem;
+    margin-bottom: 20%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.form-control:focus{
+    background: none;
+    
+    color: rgb(196, 186, 173);
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:70%;
+}
+.moreinfo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: clamp(100%,80%,50%);
+}
+.moreinfo-item{
+    color: #93E1D8;
+    font-weight: 500;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+    padding: 1%;
+}
+.saveicon{
+    color: rgba(9, 32, 27, 0.5);
+    font-size: 2rem;
+}
+.saveicon:hover{
+    transform: scale(1.1);
+    transition: (0.5s) ease-in-out;
+    color: #93E1D8;
+    font-size: 2rem;
+    cursor: pointer;
+}

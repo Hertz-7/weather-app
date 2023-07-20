@@ -1,0 +1,20 @@
+.page-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn{
+    background: none;
+    border: none;
+    color: #93E1D8;
+   
+  }
+  .btn:hover{
+    background: none;
+    color: #93E1D8;
+  }
+  .city-card{
+    margin-top: 5%;
+    width: 100%;
+  }
